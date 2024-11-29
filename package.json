@@ -67,6 +67,11 @@
         "category": "env-protector"
       },
       {
+        "command": "env-protector.edit-env-variable",
+        "title": "Edit Environment Variable",
+        "category": "env-protector"
+      },
+      {
         "command": "env-protector.remove-env-variable",
         "title": "Remove Environment Variable",
         "category": "env-protector"

@@ -19,8 +19,10 @@
   ![Masked Variables](assets/masked.png)
 - **➕ Add Environment Value Without Opening**: Insert new environment variables directly from the command palette without needing to open the `.env` file. This feature minimizes exposure risks while making it easy to update your environment.
   ![Add Environment Value](assets/add.gif)
+- **✍️ Edit Environment Value Without Opening**: Quickly edit an existing environment variable from your enviroment files without exposing their contents in the editor.
+  ![Edit Environment Value](assets/edit.gif)
 - **➖ Remove Environment Value Without Opening**: Easily remove environment variables from your environment files, again without exposing their contents in the editor.
-  ![Add Environment Value](assets/remove.gif)
+  ![Remove Environment Value](assets/remove.gif)
 
 ## 📦 Installation
 
