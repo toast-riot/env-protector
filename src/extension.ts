@@ -6,6 +6,7 @@ import { addEnvVariable } from './commands/add-env-variable'
 import { maskEnvValues } from './commands/mask-env-values'
 import { showEnvFiles } from './commands/show-env-files'
 import { hideEnvFiles } from './commands/hide-env-files'
+import { editEnvVariable } from './commands/edit-env-variable'
 import { removeEnvVariable } from './commands/remove-env-variable'
 
 /**
@@ -86,6 +87,7 @@ export function activate(context: vscode.ExtensionContext) {
     maskEnvValues,
     hideEnvFiles,
     addEnvVariable,
+    editEnvVariable,
     removeEnvVariable,
   )
 }
