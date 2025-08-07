@@ -46,17 +46,6 @@
   "contributes": {
     "commands": [
       {
-        "command": "env-protector.hide-env-files",
-        "title": "Hide Environment Files",
-        "shortTitle": "Hide env files",
-        "category": "env-protector"
-      },
-      {
-        "command": "env-protector.show-env-files",
-        "title": "Show Environment Files",
-        "category": "env-protector"
-      },
-      {
         "command": "env-protector.mask-env-values",
         "title": "Mask Environment Values",
         "category": "env-protector"
