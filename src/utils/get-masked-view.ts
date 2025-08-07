@@ -11,13 +11,13 @@ export function getMaskedView(
   const scriptPath = vscode.Uri.joinPath(context.extensionUri, 'src', 'media', 'main.js')
   
   const p = htmlDocument.createElement('p')
-  p.textContent = 'Document masked.'
+  p.textContent = 'File masked.'
   htmlDocument.body.appendChild(p)
   
   const a = htmlDocument.createElement('a')
   a.href = '#'
   a.id = 'unmask-link'
-  a.textContent = 'Open File Anyway'
+  a.textContent = 'Open file anyway'
   htmlDocument.body.appendChild(a)
 
   const script = htmlDocument.createElement('script')
