@@ -46,11 +46,6 @@
   "contributes": {
     "commands": [
       {
-        "command": "env-protector.mask-env-values",
-        "title": "Mask Environment Values",
-        "category": "env-protector"
-      },
-      {
         "command": "env-protector.add-env-variable",
         "title": "Add Environment Variable",
         "category": "env-protector"
